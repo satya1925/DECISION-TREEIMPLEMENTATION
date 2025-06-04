@@ -1,4 +1,4 @@
-# Decision Tree Implementation
+## Decision Tree Implementation
 
 This project demonstrates the implementation and visualization of a **Decision Tree** model using **scikit-learn**, one of the most widely used machine learning libraries in Python. The goal is to build a Decision Tree classifier that can predict or classify outcomes based on input data. Decision Trees are intuitive and interpretable models that split data into branches to arrive at a decision, making them an ideal starting point for beginners in machine learning.
 
@@ -67,4 +67,16 @@ Install the dependencies using:
 
 ```bash
 pip install pandas scikit-learn matplotlib seaborn
+```
+## Expected Output
+
+- Training and testing accuracy
+- Confusion matrix and classification report
+- Visual representation of the decision tree
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5d5b5981-6c97-40b8-959d-ceb79ad97485" alt="Decision Tree Output" width="500"/>
+  <br>
+  <em>Figure: Visual Representation of the Trained Decision Tree</em>
+</p>
 
