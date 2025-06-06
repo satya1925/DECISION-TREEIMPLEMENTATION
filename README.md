@@ -71,7 +71,52 @@ pip install pandas scikit-learn matplotlib seaborn
 ## Expected Output
 
 - Training and testing accuracy
+<table style="width: 100%; table-layout: fixed; border-collapse: collaps; text-align: center; max-width: 500px;">
+    <tr>
+       <th width="20px"> </th><th>sepal length (cm) </th><th>	sepal width (cm) </th><th>	petal length (cm)	</th> <th>petal width (cm)</th><th>	target</th>
+    </tr>
+    <tr>
+<td>0</td><td>	5.1</td><td>	3.5</td><td>	1.4	</td><td>0.2	</td><td>0</td>
+    </tr>
+    <tr>
+<td>1</td><td>	4.9	</td><td>3.0	</td><td>1.4</td><td>	0.2</td><td>	0</td>
+</tr><tr>
+<td>2	</td><td>4.7	</td><td>3.2</td><td>	1.3</td><td>	0.2	</td><td>0</td>
+</tr><tr>
+<td>3	</td><td>4.6</td><td>	3.1</td><td>	1.5</td><td>	0.2</td><td>	0</td>
+</tr><tr>
+<td>4</td><td>	5.0</td><td>	3.6	</td><td>1.4	</td><td>0.2	</td><td>0</td>
+    </tr>
+</table>
+
+  
 - Confusion matrix and classification report
+<p>
+Accuracy: 1.0
+</p>
+<p>
+Classification Report:
+</p>
+<table>
+    <tr>
+     <th> </th> <th>precision </th><th>  recall </th> <th>f1-score  </th> <th>support</th>
+    </tr>
+    <tr>
+     <th> setosa    </td><td>   1.00   </td><td>   1.00  </td><td>    1.00    </td><td>    19 </td>
+     </tr><tr>
+ <th> versicolor    </td><td>   1.00   </td><td>   1.00   </td><td>   1.00   </td><td>     13 </td>
+  </tr><tr>
+ <th>  virginica    </td><td>   1.00  </td><td>    1.00   </td><td>   1.00   </td><td>     13 </td>
+</tr><tr></tr>
+<tr>
+  <th>  accuracy   </td><td>          </td>     <td></td>    <td> 1.00 </td><td>       45 </td>
+    </tr><tr>
+ <th>  macro avg    </td><td>   1.00   </td><td>   1.00    </td><td>  1.00     </td><td>   45 </td>
+   </tr><tr>
+ <th> weighted avg   </td><td>    1.00   </td><td>   1.00    </td><td>  1.00   </td><td>     45 </td>
+</tr>
+</table>
+
 - Visual representation of the decision tree
 
 <p align="center">
